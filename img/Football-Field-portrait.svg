@@ -1,0 +1,22 @@
+<svg width="2500" height="4000" viewBox="0 0 2500 4000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="29.5" y="3970.5" width="3941" height="2441" transform="rotate(-90 29.5 3970.5)" fill="#3F9441" stroke="#C2D1D8" stroke-width="59"/>
+<path d="M1250 1567C1466.13 1567 1645 1758.98 1645 2000.5C1645 2242.02 1466.13 2434 1250 2434C1033.87 2434 855 2242.02 855 2000.5C855 1758.98 1033.87 1567 1250 1567Z" stroke="#C2D1D8" stroke-width="50"/>
+<rect y="2025" width="50" height="2500" transform="rotate(-90 0 2025)" fill="#C2D1D8"/>
+<circle cx="1250" cy="2000" r="75" transform="rotate(-90 1250 2000)" fill="#C2D1D8"/>
+<rect x="534" y="3974" width="650" height="1432" transform="rotate(-90 534 3974)" stroke="#C2D1D8" stroke-width="50"/>
+<mask id="path-6-outside-1" maskUnits="userSpaceOnUse" x="950" y="2999" width="600" height="350" fill="black">
+<rect fill="white" x="950" y="2999" width="600" height="350"/>
+<path d="M1500 3299C1500 3232.7 1473.66 3169.11 1426.78 3122.22C1379.89 3075.34 1316.3 3049 1250 3049C1183.7 3049 1120.11 3075.34 1073.22 3122.22C1026.34 3169.11 1000 3232.7 1000 3299L1250 3299H1500Z"/>
+</mask>
+<path d="M1500 3299C1500 3232.7 1473.66 3169.11 1426.78 3122.22C1379.89 3075.34 1316.3 3049 1250 3049C1183.7 3049 1120.11 3075.34 1073.22 3122.22C1026.34 3169.11 1000 3232.7 1000 3299L1250 3299H1500Z" stroke="#C2D1D8" stroke-width="100" mask="url(#path-6-outside-1)"/>
+<circle cx="1250" cy="3549" r="40" transform="rotate(-90 1250 3549)" fill="#C2D1D8"/>
+<rect x="888" y="3974" width="278" height="724" transform="rotate(-90 888 3974)" stroke="#C2D1D8" stroke-width="50"/>
+<rect x="534" y="677" width="650" height="1432" transform="rotate(-90 534 677)" stroke="#C2D1D8" stroke-width="50"/>
+<mask id="path-10-outside-2" maskUnits="userSpaceOnUse" x="950" y="651" width="600" height="350" fill="black">
+<rect fill="white" x="950" y="651" width="600" height="350"/>
+<path d="M1000 701C1000 767.304 1026.34 830.893 1073.22 877.777C1120.11 924.661 1183.7 951 1250 951C1316.3 951 1379.89 924.661 1426.78 877.777C1473.66 830.893 1500 767.304 1500 701L1250 701L1000 701Z"/>
+</mask>
+<path d="M1000 701C1000 767.304 1026.34 830.893 1073.22 877.777C1120.11 924.661 1183.7 951 1250 951C1316.3 951 1379.89 924.661 1426.78 877.777C1473.66 830.893 1500 767.304 1500 701L1250 701L1000 701Z" stroke="#C2D1D8" stroke-width="100" mask="url(#path-10-outside-2)"/>
+<rect x="888" y="327" width="278" height="724" transform="rotate(-90 888 327)" stroke="#C2D1D8" stroke-width="50"/>
+<circle cx="1250" cy="491" r="40" transform="rotate(-90 1250 491)" fill="#C2D1D8"/>
+</svg>

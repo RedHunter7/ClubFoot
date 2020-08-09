@@ -1,0 +1,76 @@
+.search-input {
+    display: flex;
+    justify-content: center;
+    ul.dropdown {
+        visibility: hidden;
+        transition: 0.3s ease-in;
+        background: $light-color;
+        position: absolute;
+        width: 58%;
+        margin-top: 60px;
+        border-radius: 10px;
+        @media #{$small-and-down} {
+            width: 75%;
+        }
+        li {
+            border-radius: 10px;
+            background: $light-color;
+            a {
+                font-size: 1.25rem;
+                text-align: left;
+                font-weight: 600;
+                padding: 15px 20px;
+                color: $dark-color;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                @media #{$small-and-down} {
+                    font-size: 3.865vw;
+                    padding: 10px 15px;
+                }
+            }
+            &:hover {
+                background: $primary-color-light;
+            }
+            figure {
+                width: 30px;
+                height: 30px;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    max-width: 30px;
+                    max-height: 30px;
+                }
+                @media #{$small-and-down} {
+                    width: 20px;
+                    height: 20px;
+                    img {
+                        max-width: 20px;
+                        max-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    button {
+        cursor: pointer;
+        background: $light-color;
+        border-radius: 0 10px 10px 0;
+        height: 4rem;
+        padding: 0 20px;
+        border: none;
+        outline: none;
+        color: $primary-color-dark;
+        i {
+            font-size: 3rem;
+            @media #{$small-and-down} {
+                font-size: 2rem;
+            }
+        }
+    }
+
+}

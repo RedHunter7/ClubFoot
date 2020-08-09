@@ -1,0 +1,252 @@
+.btn-save {
+    background: $primary-color-dark;
+    &:hover {
+        background: $light-color;
+        i {
+            color: $primary-color-dark;
+        }
+    }
+}
+.btn-delete {
+    background: $error-color;
+    &:hover {
+        background: $light-color;
+        i {
+            color: $error-color;
+        }
+    }
+}
+.club-info {
+    margin-top: 5vh;
+    width: 95%;
+    .row {
+        .col {
+            height: 550px;
+            @media #{$medium-and-down} {
+                height: fit-content;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    h5,h6 {
+        font-family: 'Roboto', sans-serif;
+    }
+    h5 {
+        font-weight: 500;
+        @media #{$small-and-down} {
+            font-size: 18px;
+        }
+    }
+    h6 {
+        @media #{$small-and-down} {
+            font-size: 13px;
+        }
+    }
+    .club-overview {
+        background: rgba($color: $light-color, $alpha: 0.8);
+        border-radius: 20px;
+        height: 100%;
+        padding: 50px 10px;
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 125px;
+            height: 125px;
+            margin: auto;
+            @media #{$small-and-down} {
+                width: 85px;
+                height: 85px;
+            }
+            img {
+                max-width: 120px;
+                max-height: 120px;
+                min-width: 120px;
+                min-height: 60px;
+                @media #{$small-and-down} {
+                    max-width: 80px;
+                    max-height: 80px;
+                    min-width: 70px;
+                    min-height: 70px;
+                }
+            }
+        }
+        .club-venue, .club-continental {
+            margin-top: 40px;
+        }
+
+        @media #{$medium-and-down} {
+            margin: auto;
+            height: fit-content;
+            width: 90%;
+            .club-emblem-and-name, .club-venue-and-continetal {
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .club-emblem-and-name {
+                width: 70%;
+                figure {
+                    margin: 0;
+                    margin-right: 40px;
+                }
+            }
+            .club-venue-and-continetal {
+                margin-top: 40px;
+                .club-venue, .club-continental {
+                    margin: 0 20px;
+                }
+            }
+        }
+
+        @media #{$small-and-down} {
+            width: 100%;
+            padding: 20px 10px;
+            .club-emblem-and-name {
+                width: 90%;
+                figure {
+                    margin: 0;
+                    margin-right: 20px;
+                }
+            }
+            .club-venue-and-continetal {
+                margin-top: 20px;
+                .club-venue, .club-continental {
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+
+    .match-schedule, .match-result {
+        h5 {
+            color: $light-color;
+            @media #{$small-and-down} {
+                margin-bottom: 20px;
+            }
+        }
+        .scheduled, .result {
+            padding: 10px 20px;
+            border-radius: 20px;
+            background: rgba($color: $light-color, $alpha: 0.8);
+            h5 {
+                height: 150px;
+                width: 100%;
+                color: $dark-color;
+                justify-content: center;
+                @media #{$small-and-down} {
+                    color: $light-color;
+                }
+            } 
+            @media #{$medium-and-down} {
+                overflow: auto;
+                &::-webkit-scrollbar-thumb {
+                    background: $primary-color-light;
+                }
+            }
+            @media #{$small-and-down} {
+               border-radius: 0;
+               padding: 0;
+               background: transparent;
+               &::-webkit-scrollbar {
+                display: none;
+            }
+            }
+            .club-schedule, .club-result {
+                width: 150px;
+                @media #{$medium-and-down} {
+                    margin: 0 15px;
+                }
+                @media #{$small-and-down} {
+                    background: rgba($color: $light-color, $alpha: 0.8);
+                    padding: 10px 30px;
+                    border-radius: 20px;
+                }
+                h6 {
+                    font-weight: 500;
+                }
+                figure {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: auto;
+                    width: 100px;
+                    height: 110px;
+                    @media #{$small-and-down} {
+                        width: 90px;
+                        height: 90px;
+                    }
+                    img {
+                        max-width: 95px;
+                        max-height: 95px;
+                        @media #{$small-and-down} {
+                            width: 80px;
+                            height: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .match-result {
+        margin-top: 50px;
+    }
+}
+
+.squad-info {
+    width: 95%;
+    margin-top: 100px;
+    @media #{$small-and-down} {
+        margin-top: 50px;
+    }
+    h3,h4 {
+        color: $light-color;
+    }
+    h5,h4,h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+
+    h5 {
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    .player-squad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .coach, .player {
+        margin: auto;
+        background: rgba($color: $light-color, $alpha: 0.8);
+        width: 300px;
+        height: fit-content;
+        padding: 10px 0;
+        border-radius: 10px;
+        margin: 20px 10px;
+    }
+
+    .player {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .player-name-and-nation {
+            margin-left: 20px;
+        }
+        .player-number {
+            margin-right: 20px;
+            h2 {
+                font-size: 2.25rem;
+                font-family: 'Bungee', cursive;
+                margin: 0;
+            }
+        }
+    }
+}

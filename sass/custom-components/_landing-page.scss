@@ -1,0 +1,103 @@
+
+.landing-page {
+    height: calc(100vh - #{$navbar-height});
+    .landing-page-background {
+        background: url("../../img/Football-Field.svg") center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        filter: brightness(70%);
+        @media #{$orientation-portrait} {
+            background: url("../../img/Football-Field-portrait.svg") center;
+            background-size: cover;
+        }
+    }
+    .landing-page-text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        color: $light-color;
+        h1,h4 {
+            margin: 0;
+        }
+        h1 {
+            font-family: "Bungee", cursive;
+            @media #{$small-and-down} {
+                font-size: 3rem;
+            }
+        }
+        h4 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            @media #{$small-and-down} {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+.web-feature {
+    width: 85%;
+    article {
+        overflow-wrap: break-word;
+    }
+    h3,h5 {
+        color: $light-color;
+        @media #{$medium-and-down} {
+            text-align: center;
+        }
+    }
+    h5 {
+        @media #{$small-and-down} {
+            font-size: 1.5rem;
+        }
+    }
+    h3 {
+        font-weight: 700;
+        @media #{$small-and-down} {
+            font-size: 2rem;
+        }
+    }
+    .row {
+        @media #{$large-and-up} {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 350px;
+        }
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba($color: #C4C4C4, $alpha: 0.1);
+            border-radius: 20px;
+            width: 400px;
+            height: 260px;
+            img {
+                width: 360px;
+                height: 240px;
+                @media #{$small-and-down} {
+                    width: 300px;
+                    height: 200px;
+                }
+            }
+        }
+        &:nth-child(3) {
+            figure {
+                background: none;
+                img {
+                    width: 220px;
+                    height: 200px;
+                }
+            }
+        }
+
+        .col {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
