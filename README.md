@@ -4,6 +4,8 @@ Website that provide information about 4 top league football.
 
 https://club-foot-b5ad7.web.app/#home
 
+## Preview 
+
 <img src="img/clubfoot-preview.png" alt="clubfoot preview" />
 
 <img src="img/clubfoot-league.png" alt="clubfoot league" />
